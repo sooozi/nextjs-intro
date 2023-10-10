@@ -1,4 +1,4 @@
-// #04_Routing
+// #05_CSS Modules
 import NavBar from "../components/NavBar";
 
 export default function Home(){

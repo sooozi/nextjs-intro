@@ -1,0 +1,14 @@
+/* #05_CSS Modules */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: tomato;
+}
+
+.active {
+    color: white;
+}
+
+.hello {
+    color: rgb(0, 255, 42);
+}
