@@ -1,14 +1,14 @@
 // #05_CSS Modules
 import Link from "next/link";
 import { useRouter } from "next/router";
-//css 모듈 파일 임포트
 //module.css란?
 //우리가 평범한 css를 사용할 수 있도록 해줌!
 //사용방법
 //: 클래스이름을 텍스트로 적지 않고 자바스크립트 오브젝트에서의 프로퍼티 형식으로 기재
 //-> 무작위의 클래스 네임이 들어감 -> 충돌이 안남!
-//
 
+
+//css 모듈 파일 임포트
 import styles from "./NavBar.module.css";
 
 export default function NavBar(){
