@@ -2,7 +2,7 @@
 
 import NavBar from "../components/NavBar";
 
-//헤드 만들기 시작!
+//헤드 만들기 시작! (Seo.js가 있으면 안써도 됨!)
 import Head from "next/head"
 
 //Seo.js 생성 후 헤드 임포트
