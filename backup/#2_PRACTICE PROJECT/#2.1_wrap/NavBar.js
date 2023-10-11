@@ -1,4 +1,5 @@
-// #2.02_Redirect and Rewrite
+// #2.01_Fetching Data
+
 
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -7,6 +8,10 @@ export default function NavBar(){
     const router = useRouter();
     return (
         <nav>
+            {/*
+                //이미지 파일 넣는 방법
+                //퍼블릭/~ => 이 방법이 아니라 아래처럼 / 다음에 바로 파일이름을 넣어줌!
+            */}
             <img src="/vercel.svg" />
             <div>
                 <Link href="/" legacyBehavior>

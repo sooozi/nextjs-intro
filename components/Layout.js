@@ -1,4 +1,4 @@
-// #2.01_Fetching Data
+// #2.02_Redirect and Rewrite
 import NavBar from "../components/NavBar";
 
 export default function Layout({ children }) {

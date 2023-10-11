@@ -1,4 +1,4 @@
-// #2.01_Fetching Data
+// #2.02_Redirect and Rewrite
 
 import Seo from "../components/Seo"
 

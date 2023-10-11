@@ -1,4 +1,4 @@
-// #2.01_Fetching Data
+// #2.02_Redirect and Rewrite
 
 import Layout from "@/components/Layout";
 import "../styles/globals.css";
