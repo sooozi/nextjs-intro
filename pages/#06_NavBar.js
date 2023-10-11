@@ -7,18 +7,18 @@ export default function NavBar(){
     const router = useRouter();
     return (
         <nav>
-            <Link href="/" className={router.pathname === "/" ? "active" : ""}>Home</Link>
-            <Link href="/about" className={router.pathname === "/about" ? "active" : ""}>About</Link>
-            {/* styles jsx는 현재 페이지에서만 적용된다 */}
-            <style jsx global>{` 
-                nav {
-                    background-color: tomato;
-                }
+            <Link href="/" legacyBehavior>
+                <a className={router.pathname === "/" ? "active" : ""}>Home</a>
+            </Link>
+            <Link href="/about" legacyBehavior>
+                <a className={router.pathname === "/about" ? "active" : ""}>About</a>
+            </Link>
+            <style jsx>{` 
                 a {
                     text-decoration: none;
                 }
                 .active {
-                    color: yellow;
+                    color: tomato;
                 }
             `}</style>
         </nav>
