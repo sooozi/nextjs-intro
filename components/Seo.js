@@ -1,5 +1,4 @@
-// #2.00_Patterns
-//모든 페이지에 헤드 넣기!
+// #2.01_Fetching Data
 import Head from "next/head"
 
 export default function Seo({title}) {
