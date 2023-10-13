@@ -1,4 +1,4 @@
-// #2.03_Server Side Rendering
+// #2.05_Dynamic Routes
 import { useEffect, useState } from "react";
 import Seo from "../components/Seo";
 
