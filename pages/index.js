@@ -1,15 +1,10 @@
-// #2.07_Catch All
-//1.catch-all URL(뭐든 캐치해내는 URL)만들기!
-//(홈페이지에서 클릭해서 들어오지 않아도 상세페이지의 영화 제목을 볼 수 있다!)
-//=>[id].js > [...params].js로 파일명 변경
-
+// #2.08_404 Pages
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router"
 import Seo from "../components/Seo";
 import Link from "next/link";
 
-//아래 코드 수정해주기 ==> 상세페이지 url에서 제목 보임!!!
 export default function Home({results}){
     const router = useRouter();
     const onClick = (id, title) => {
