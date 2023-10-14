@@ -24,8 +24,6 @@ const nextConfig = {
         source: "/api/movies/:id",
         destination:`https://api.themoviedb.org/3/movie/:id?api_key=${API_KEY}`
       }
-      //source와 destination에 들어가는 명칭 동일하게 기재!!!
-      //(source에 :id로 명명했다면 destination에도 :id로 적어줘야함!)
     ]
   },
   experimental: {
